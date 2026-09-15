@@ -2,7 +2,7 @@
 
 Analysis of 2 years of transaction data (Dec 2009 – Dec 2011) for a UK-based online retailer, using SQL for analysis and Excel for stakeholder-ready reporting.
 
-![dashboard-preview](images/summary_dashboard.png)
+![dashboard-preview](dashboard_priview.png)
 
 ## Business Problem
 
@@ -45,15 +45,12 @@ The business wanted answers to three questions:
 
 ```
 sql-excel-customer-revenue-intelligence/
-├── README.md
-├── sql/
-│   └── queries.sql
-├── reports/
-│   └── customer_revenue_report.xlsx
-├── data/
-│   └── README.md   (data source/download link — raw data not committed)
-└── images/
-    └── summary_dashboard.png
+├── README.md  (data source/download link — raw data not committed)
+├── SQL_analysis_queries.sql
+├── Retail_Sales_Analytics.xlsx
+├── Retail_Analytics_report.docx
+├── Retail_Analytics_presentation.pptx
+└── dashboard_priview.png
 ```
 
 ## Data
